@@ -1,0 +1,8 @@
+
+def table(i):
+    if(i<=10):
+        print(12*i)
+        table(i+1)
+
+
+table(1)
