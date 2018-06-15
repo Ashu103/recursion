@@ -1,0 +1,14 @@
+def perfect(no):
+    j=1
+    sum=0
+    while j<no:
+        if no%j is 0:
+            sum=sum+j
+        j=j+1
+    return sum
+
+
+for i in range(1,1000):
+    x=perfect(i)
+    if (x==i):
+        print('it is perfect no' ,x)
